@@ -12,6 +12,7 @@ body{
 
 .header_navbar{
     color: #f0cbb7;
+    word-spacing: 20px;
 }
 
 .search_txt{
@@ -22,4 +23,43 @@ body{
 .search_form{
     margin: 60px 0 0 0;
     padding: 0;
+}
+
+.banner_search{
+    background-color: #d187b8;
+    color: white;
+    font-weight: 500;
+}
+
+.search_txtsize{
+ font-weight: bold;
+ font-family: Cormorant Garamond;
+ font-size: 70px;
+}
+
+.find-someonesize{
+    font-weight: bold;
+    font-family: Cormorant Garamond;
+    color: #d187b8;
+    font-size: 70px;
+   }
+
+.Sign_upbgonly{
+    background-color: #d187b8;
+    color: white;
+}
+
+.Sign_upbg{
+    background-color:white;
+}
+
+.Sign_upbg:hover{
+    background-color: #d187b8;
+    color: white;
+    transition: all 3s linear;
+}
+
+.live{
+    background-color: #f4f0ed;
+    margin-top: 120px;
 }
