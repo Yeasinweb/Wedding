@@ -62,4 +62,49 @@ body{
 .live{
     background-color: #f4f0ed;
     margin-top: 120px;
+    height: 400px;
 }
+
+.live-someonesize{
+    font-family: Cormorant Garamond;
+    color: black;
+    font-size: 30px;
+    margin-top: 50px;
+   }
+   .live_image{
+    margin-top: -130px;
+   }
+
+   .upgrade_font{
+    font-weight: bold;
+    font-family: Cormorant Garamond;
+    color: #d187b8;
+    font-size: 50px;
+   }
+
+   .contact_icon{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-color:#f4f0ed;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #d187b8;
+   }
+
+   .contact_icon:hover{
+    background-color:#d187b8;
+    transition: all 1s linear;
+    color: white;
+ 
+   }
+
+   .contact_icon span{
+   color: white;
+   }
+
+   
