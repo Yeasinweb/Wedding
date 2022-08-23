@@ -132,3 +132,54 @@ body{
 .footercolor{
     background-color: #d187b8;
 }
+
+
+.fa-minus:before, .fa-subtract:before {
+    content: "\f068";}
+
+    button.accordion:not(.collapsed) .plusicon .fa-plus::before {
+        content: "\f068";}
+
+ .mymother::before {
+            content: "";
+            width: 250px;
+            height: 1px;
+            background-color: #d187b8;
+            position: absolute;
+            left: 40px;
+            bottom: 0;
+          }
+
+.mymother { position: relative; }
+
+.message::after{
+    content:"";
+    width: 30px;
+    height: 1px;
+    margin: auto;
+    background-color: #d187b8;
+    display: block;
+    margin-top: 20px;
+}
+
+.Sign_upbg::after{
+    content:"";
+    width: 30px;
+    height: 1px;
+    margin: auto;
+    background-color: #d187b8;
+    display: block;
+    margin-top: 20px;
+
+}
+
+.Sign_upbg::after:hover{
+    content:"";
+    width: 30px;
+    height: 1px;
+    margin: auto;
+    background-color: white;
+    display: block;
+    margin-top: 20px;
+
+}
