@@ -16,43 +16,34 @@
         <body>
 
       <section class="banner banner_image">
-        <div class="container">
-            <div class="row d-flex justify-content-around align-items-center">
-              <div class="col mt-4">
-                  <img src="./image/logo.png">
-              </div>
-
-              <div class="col mt-4">
-                <nav class="navbar navbar-expand-lg">
-                  <div class="container-fluid">
-                    <button class="navbar-toggler header_navbar" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
-                    </button>
-                    <div class="collapse navbar-collapse header_navbar" id="navbarNav">
-                      <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                          <a class="nav-link header_navbar" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link header_navbar" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link header_navbar" href="#">Advanced Search</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link header_navbar" href="#">Contact US</a>
-                        </li>
-                        
-                      </ul>
-                    </div>
-                  </div>
-                </nav>
-              </div>
-
-              <div class="col header_navbar mt-4 text-end">
-                  <p><img src="./image/user.png"> Login</p>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand" href="#"><img src="./image/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                  <a class="nav-link header_navbar" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link header_navbar" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link header_navbar" href="#">Advanced Search</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link header_navbar" href="#">Contact US</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <p class="header_navbar"><img src="./image/user.png"> Login</p>
+              </form>
             </div>
-            </div>
+          </div>
+        </nav>
+            
 
             <!------banner search-->
             <div class="search_txt">
@@ -65,8 +56,9 @@
 
             <!------banner search form-->
 
-            <div class="search_form bg-dark bg-opacity-50">
+            
               <div class="container">
+                <div class="search_form bg-dark bg-opacity-50">
                 <div class="row p-3">
 
                   <div class="col-md-2 col-lg-2 text-light">
@@ -123,7 +115,8 @@
 
                 </div>
               </div>
-            </div>
+              </div>
+            
           
 
         </div>
@@ -413,7 +406,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-lg-6 py-5 my-5">
-              <img src="./image/search.png">
+              <img src="./image/search.jpg">
             </div>
 
             <div class="col-md-6 col-lg-6 p-5 my-5">
