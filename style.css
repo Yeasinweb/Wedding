@@ -16,6 +16,7 @@ img {max-width: 100%; height: auto;}
 
 .header_navbar{
     color: #f0cbb7;
+    padding-left: 20px;
 }
 
 .header_navbar:hover{
@@ -198,4 +199,10 @@ img {max-width: 100%; height: auto;}
 
 .hovertext{
 color: white;
+}
+
+
+.navbar-collapse.show {
+    background-color: rgba(0000, 0000, 0000, .5);
+    transition: all .2s;
 }
