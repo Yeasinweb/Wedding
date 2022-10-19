@@ -16,7 +16,10 @@ img {max-width: 100%; height: auto;}
 
 .header_navbar{
     color: #f0cbb7;
-    word-spacing: 20px;
+}
+
+.header_navbar:hover{
+    color: #ffffff;
 }
 
 .search_txt{
@@ -191,4 +194,8 @@ img {max-width: 100%; height: auto;}
 .icons_white{
     background-color: #f0cbb7;
     border-radius: 15%;
+}
+
+.hovertext{
+color: white;
 }
