@@ -31,3 +31,10 @@
 }
 
   }
+
+  @media only screen and (min-width: 767px) {
+    .header_navbar_color{
+      color: #ffffff;
+      background-color:transparent;
+  }
+  }
